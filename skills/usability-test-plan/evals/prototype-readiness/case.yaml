@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: prototype-readiness
+expected_outcome: |
+  The plan lists the paths each task needs wired in the prototype, says what happens when a
+  participant hits a dead end, uses realistic content, and schedules a pilot session.

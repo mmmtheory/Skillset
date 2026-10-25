@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: unmoderated-study
+expected_outcome: |
+  The study is written for no moderator: short self-contained tasks, a clear way to say done or stuck,
+  a post-task question after each task, and a total length of about 15 to 20 minutes.

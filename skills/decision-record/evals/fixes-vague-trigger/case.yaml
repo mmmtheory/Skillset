@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: fixes-vague-trigger
+expected_outcome: |
+  The agent replaces the vague revisit line with an observable trigger based on the record's own
+  context, or flags that one is needed and proposes one, and keeps the rest of the content.
+context:
+  scaffold_script: place-files.sh

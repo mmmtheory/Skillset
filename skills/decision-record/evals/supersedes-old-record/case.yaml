@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: supersedes-old-record
+expected_outcome: |
+  The agent adds DR-0004 following the folder's naming, updates the index, and marks DR-0003 as
+  superseded with a link to the new record, without deleting it.
+context:
+  scaffold_script: place-files.sh

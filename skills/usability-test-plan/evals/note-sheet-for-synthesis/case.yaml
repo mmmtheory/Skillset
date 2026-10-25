@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: note-sheet-for-synthesis
+expected_outcome: |
+  The plan includes a note sheet with participant IDs, a completion outcome per task, observations and
+  word-for-word quotes, so the notes can be synthesised later.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: other-people-in-the-flow
+expected_outcome: |
+  The inventory covers both sides: the payer and each friend. It includes requests that are paid,
+  partly paid, declined, ignored and expired, friends without the app, and what the payer sees as
+  repayments come in.

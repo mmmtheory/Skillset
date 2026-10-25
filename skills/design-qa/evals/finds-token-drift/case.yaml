@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: finds-token-drift
+expected_outcome: |
+  The QA finds values typed as literals instead of tokens: #141414 and #f7f3ec as hard-coded tokens,
+  #1b3b53 as a near miss for primary, 22px padding and 6px radius off the scale, and Inter instead of
+  Public Sans, each with the token to use.
+context:
+  scaffold_script: place-files.sh

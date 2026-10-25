@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: screener-hides-the-target
+expected_outcome: |
+  The screener asks about recent behaviour among plausible distractors, does not reveal the product or
+  the target answer, screens out market research and industry workers, and includes an open question
+  to catch professional testers.

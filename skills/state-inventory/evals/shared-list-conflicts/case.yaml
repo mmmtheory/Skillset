@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: shared-list-conflicts
+expected_outcome: |
+  The inventory adds the collaboration states: two people editing at once, an item deleted by someone
+  else, changes made offline and synced later, and a person removed from the list.

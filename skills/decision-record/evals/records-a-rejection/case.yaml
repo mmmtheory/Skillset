@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: records-a-rejection
+expected_outcome: |
+  A record with the status Rejected that states the proposal, why it was turned down with the reasons
+  attributed, the option that was considered, Lena as decider, and the revisit condition given.

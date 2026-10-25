@@ -1,0 +1,12 @@
+.panel {
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.panel h2 {
+  font-size: 1.5rem;
+}
+
+.panel button {
+  padding: 0.5rem 1rem;
+}

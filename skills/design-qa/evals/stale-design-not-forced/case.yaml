@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: stale-design-not-forced
+expected_outcome: |
+  The agent does not silently replace the token with an off-system colour. It points out that #3b82f6
+  is not in the tokens and measures its contrast on surface, classifies the frame as possibly stale or
+  wrong, and asks design to confirm before changing the code.
+context:
+  scaffold_script: place-files.sh

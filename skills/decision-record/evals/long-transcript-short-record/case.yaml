@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: long-transcript-short-record
+expected_outcome: |
+  A one-screen record that leads with the decision on the pricing page layout, keeps the trade-offs
+  and revisit trigger, and leaves the meeting chatter out.
+context:
+  scaffold_script: place-files.sh

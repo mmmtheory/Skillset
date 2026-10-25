@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: fits-the-session
+expected_outcome: |
+  The plan does not cram nine tasks into 45 minutes. It budgets time per task with intro and wrap-up
+  overhead and a buffer, puts the most important tasks first, and says which tasks are cut or moved to
+  another round.

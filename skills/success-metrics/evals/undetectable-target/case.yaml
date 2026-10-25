@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: undetectable-target
+expected_outcome: |
+  The agent calculates that about 9,500 people per arm are needed, about 19,000 in total, which at 300
+  a week is more than a year, says the test is not feasible as planned, and offers alternatives.

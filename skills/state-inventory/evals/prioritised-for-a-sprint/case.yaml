@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: prioritised-for-a-sprint
+expected_outcome: |
+  The inventory marks each state as Design, Pattern or Note, lists the states that need their own
+  design first, and groups states that share one pattern so the real design effort is clear.

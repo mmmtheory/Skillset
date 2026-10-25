@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: vanity-metrics-pushback
+expected_outcome: |
+  The response points out that page views, clicks and time on page do not show that people got help,
+  explains that longer time on page could mean confusion, and replaces them with a primary outcome
+  such as self-service resolution plus guardrails.
+context:
+  scaffold_script: place-files.sh

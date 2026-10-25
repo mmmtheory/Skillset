@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: derives-not-template
+expected_outcome: |
+  The inventory fits a single instant-save toggle: saving, saved, save failed with the toggle
+  reverting and a message, offline, and no permission. It does not pad the list with states that
+  cannot apply, such as an empty list or pagination.

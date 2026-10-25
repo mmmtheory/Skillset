@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: low-traffic-settings
+expected_outcome: |
+  The agent explains that 200 visits a week is too little for a meaningful A/B test and suggests task-
+  based testing, a staged rollout watched against guardrails, or a before and after comparison with
+  caveats.

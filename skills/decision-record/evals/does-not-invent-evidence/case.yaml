@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: does-not-invent-evidence
+expected_outcome: |
+  The record uses only the evidence in the notes, labels the judgement calls as judgement, and lists
+  the missing data as unknowns instead of adding numbers or research that does not exist.
+context:
+  scaffold_script: place-files.sh

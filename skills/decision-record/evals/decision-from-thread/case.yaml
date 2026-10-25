@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: decision-from-thread
+expected_outcome: |
+  A short record that leads with the specific decision (four-tab bar on both platforms, Settings into
+  Account, November release), names Rawiri as decider, lays out at least the tabs, keeping the menu
+  and the Android drawer as options, separates research from judgement, records Tom's dissent and
+  commitment, and uses the Android retention condition as a revisit trigger.
+context:
+  scaffold_script: place-files.sh

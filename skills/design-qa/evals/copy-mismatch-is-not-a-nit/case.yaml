@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: copy-mismatch-is-not-a-nit
+expected_outcome: |
+  The QA treats the wrong button label (Get started instead of Choose plan), the price format ($12/mo
+  instead of $12 per month) and the missing Current plan state as real defects, not nits.
+context:
+  scaffold_script: place-files.sh

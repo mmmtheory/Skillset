@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: spanish-language
+expected_outcome: |
+  The inventory is written in Spanish, includes the payment states that matter (declined, unknown
+  outcome, pending top-up not yet on the card) and gives copy in Spanish.

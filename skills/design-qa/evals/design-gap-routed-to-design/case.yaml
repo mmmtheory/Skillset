@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: design-gap-routed-to-design
+expected_outcome: |
+  The QA reports what the build does with the long plan name (it truncates with an ellipsis and hides
+  the rest), notes that the spec does not cover long names, and sends the decision to design as a
+  design gap rather than calling it a build bug.
+context:
+  scaffold_script: place-files.sh

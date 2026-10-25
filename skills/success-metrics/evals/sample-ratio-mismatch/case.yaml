@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: sample-ratio-mismatch
+expected_outcome: |
+  The agent flags the sample ratio mismatch (10,000 versus 10,900 on a planned 50/50 split) as a sign
+  that assignment is broken and says the result should not be trusted until it is explained.

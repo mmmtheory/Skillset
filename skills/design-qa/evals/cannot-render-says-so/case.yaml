@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: cannot-render-says-so
+expected_outcome: |
+  The QA says plainly that the rendered UI was not seen, marks visual findings as unconfirmed, and
+  still reports what the code shows against the spec: the wrong label, the hard-coded colour and the
+  missing disabled state.
+context:
+  scaffold_script: place-files.sh

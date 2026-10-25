@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: root-cause-grouped
+expected_outcome: |
+  The QA traces the many small differences to one cause, the root font size set to 15px so every rem
+  value shrinks, reports it once with the symptoms grouped under it, and gives one fix.
+context:
+  scaffold_script: place-files.sh

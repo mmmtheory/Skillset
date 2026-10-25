@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: portuguese-language
+expected_outcome: |
+  The punch list is written in Portuguese, keeps file names and token names unchanged, and reports the
+  focus outline removal and the off-system colour.
+context:
+  scaffold_script: place-files.sh

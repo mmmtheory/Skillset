@@ -1,6 +1,6 @@
 ---
 name: design-brief
-description: Turns a vague design request into a sharp one-page brief before any design work starts. Use when someone asks to design, redesign or build a screen, feature, flow, product, campaign or brand asset and the problem, audience, constraints or measure of success is unclear, or when they ask for a brief, problem statement, project framing or kickoff doc. Not for critiquing finished work or synthesising research.
+description: Turns a vague design request into a sharp one-page brief before any design work starts. Use when someone asks to design, redesign or build a screen, feature, flow, product, campaign or brand asset and the problem, audience, constraints or measure of success is unclear, or when they ask for a brief, problem statement, project framing or kickoff doc. Not for critiquing finished work, synthesising research, or planning metrics and experiments in depth (success-metrics).
 license: MIT
 metadata:
   author: Matthias Schmutz
