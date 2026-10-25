@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: french-language
+expected_outcome: |
+  The plan is written in French with tasks written as scenarios in French, without interface labels,
+  and fits 45 minute sessions.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: assumes-and-says-so
+expected_outcome: |
+  The agent does not stop at a question. It states an assumption about what the dashboard shows and
+  where the data comes from, then gives an inventory that fits that assumption, including stale and
+  partly loaded data.

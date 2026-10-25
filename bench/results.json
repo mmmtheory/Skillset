@@ -11,10 +11,16 @@
     "brand-strategy": {
       "runs": []
     },
+    "decision-record": {
+      "runs": []
+    },
     "design-brief": {
       "runs": []
     },
     "design-critique": {
+      "runs": []
+    },
+    "design-qa": {
       "runs": []
     },
     "design-system-bridge": {
@@ -24,6 +30,15 @@
       "runs": []
     },
     "research-synthesis": {
+      "runs": []
+    },
+    "state-inventory": {
+      "runs": []
+    },
+    "success-metrics": {
+      "runs": []
+    },
+    "usability-test-plan": {
       "runs": []
     }
   }

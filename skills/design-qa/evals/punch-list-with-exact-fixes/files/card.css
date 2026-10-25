@@ -1,0 +1,36 @@
+.plans {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  gap: 24px;
+}
+
+.card {
+  background: #f7f3ec;
+  border: 1px solid #d9d4ca;
+  border-radius: 6px;
+  padding: 22px;
+  font-family: Inter, sans-serif;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #141414;
+}
+
+.card .price {
+  color: #5c5c58;
+  font-size: 15px;
+}
+
+.card button {
+  background: #1b3b53;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+
+.card button:focus {
+  outline: none;
+}

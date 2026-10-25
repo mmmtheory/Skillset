@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ai-feature-metrics
+expected_outcome: |
+  The primary metric is about outcome, not usage: drafts sent with little or no editing, or time to
+  resolution. Guardrails cover customer satisfaction or reopen rate and quality, and novelty effects
+  are mentioned.

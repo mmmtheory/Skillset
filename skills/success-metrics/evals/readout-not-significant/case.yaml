@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: readout-not-significant
+expected_outcome: |
+  The agent reports a difference of about +0.5 points with a 95% interval from about -0.4 to +1.4
+  points and a p-value of about 0.26, says there is no detectable effect at this sample size, and does
+  not declare a winner or claim there is no effect.

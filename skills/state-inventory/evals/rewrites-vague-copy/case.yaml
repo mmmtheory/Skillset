@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: rewrites-vague-copy
+expected_outcome: |
+  Every vague message is rewritten to say what happened, what happened to the person's money or data,
+  and what to do next. The transfer timeout says the money may have moved and how the person will find
+  out.
+context:
+  scaffold_script: place-files.sh

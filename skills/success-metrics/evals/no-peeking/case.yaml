@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: no-peeking
+expected_outcome: |
+  The agent advises against stopping early, explains that checking repeatedly and stopping at the
+  first significant result inflates false positives, and notes that stopping early is fine for a
+  broken guardrail.

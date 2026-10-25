@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: no-decision-found
+expected_outcome: |
+  The agent says no decision was made, and writes a decision request instead: the question, the
+  options including Apple Pay and doing nothing, the considerations raised, who should decide and by
+  when. It does not present saved cards as decided.
+context:
+  scaffold_script: place-files.sh

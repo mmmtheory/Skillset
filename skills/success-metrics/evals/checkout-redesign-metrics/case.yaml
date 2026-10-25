@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: checkout-redesign-metrics
+expected_outcome: |
+  One primary metric (checkout completion) defined with numerator, denominator, population and window,
+  two to four guardrails with thresholds, and the baseline marked to measure because none was given,
+  not invented.

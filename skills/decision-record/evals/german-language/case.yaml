@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: german-language
+expected_outcome: |
+  The record is in German, keeps names and product terms as written, and contains the decision,
+  options, decider and revisit trigger.
+context:
+  scaffold_script: place-files.sh

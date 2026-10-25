@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: critique-outcome-actions
+expected_outcome: |
+  The record captures the decisions made in the critique, lists follow-up actions with the owners
+  named in the notes, and marks actions with no owner as unassigned instead of assigning someone.
+context:
+  scaffold_script: place-files.sh

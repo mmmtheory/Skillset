@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: punch-list-with-exact-fixes
+expected_outcome: |
+  A severity-ordered punch list where each item says where, what was expected and from which source,
+  what the build does, and an exact fix naming the file and the value or token to use.
+context:
+  scaffold_script: place-files.sh

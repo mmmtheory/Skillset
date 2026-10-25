@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: checks-narrow-viewports
+expected_outcome: |
+  The QA finds that the fixed three 320px columns cannot fit a 390px screen, so the page scrolls
+  sideways and fails the one-column mobile layout and WCAG reflow, and gives a responsive fix.
+context:
+  scaffold_script: place-files.sh

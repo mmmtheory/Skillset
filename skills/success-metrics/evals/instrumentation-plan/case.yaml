@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: instrumentation-plan
+expected_outcome: |
+  The response defines the primary metric and guardrails and lists the events needed in the team's
+  naming style, saying when each fires and which properties it carries, and flags which events must
+  exist before launch to capture a baseline.

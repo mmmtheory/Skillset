@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ai-drafting-states
+expected_outcome: |
+  The inventory covers generating with a way to stop, a partial draft, low confidence or no useful
+  draft, a draft that is out of date because the ticket changed, refusal, and running out of usage,
+  with copy for each.

@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: group-decider-flagged
+expected_outcome: |
+  The record does not list the team as decider. It marks the decider as not stated and asks who owns
+  the decision, while recording the agreement that was reached.
+context:
+  scaffold_script: place-files.sh

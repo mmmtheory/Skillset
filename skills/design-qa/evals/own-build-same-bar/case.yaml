@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: own-build-same-bar
+expected_outcome: |
+  The agent builds the cards using design tokens, then runs the same QA on its own work, reports a
+  verdict and what was and was not checked, and does not claim unchecked states pass.
+context:
+  scaffold_script: place-files.sh

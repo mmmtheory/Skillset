@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: booking-time-states
+expected_outcome: |
+  The inventory includes the time-based states: the slot is taken while the person decides, the
+  booking is cancelled or moved by the salon, the appointment is soon, past or missed, and time zone
+  or daylight saving issues where relevant.

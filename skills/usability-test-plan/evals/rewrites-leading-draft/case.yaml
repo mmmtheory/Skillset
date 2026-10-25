@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: rewrites-leading-draft
+expected_outcome: |
+  The rewrite turns each task into a scenario with a goal and no interface labels or instructions,
+  replaces the prediction and pricing questions with questions about past behaviour or removes them,
+  and splits the double-barrelled question.
+context:
+  scaffold_script: place-files.sh

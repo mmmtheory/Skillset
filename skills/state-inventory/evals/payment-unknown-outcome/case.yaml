@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: payment-unknown-outcome
+expected_outcome: |
+  The inventory goes beyond loading and error: it separates a bank decline from a network failure,
+  includes the unknown outcome after a timeout with copy that stops people paying twice, and covers
+  double taps.

@@ -1,6 +1,6 @@
 ---
 name: design-critique
-description: Gives an honest, rubric-based critique of a UI design such as a screen, flow, page, component, prototype or Figma frame, including a design the agent just made. Use when someone asks for a design review, critique, feedback, a UX or accessibility audit, whether a design is good or ready to ship, or what to improve. Looks at the rendered result, measures contrast, and returns severity-ranked findings with concrete fixes. Not for code style review, copy-only edits or writing a brief.
+description: Gives an honest, rubric-based critique of a UI design such as a screen, flow, page, component, prototype or Figma frame, including a design the agent just made. Use when someone asks for a design review, critique, feedback, a UX or accessibility audit, whether a design is good or ready to ship, or what to improve. Looks at the rendered result, measures contrast, and returns severity-ranked findings with concrete fixes. Not for code style review, copy-only edits, writing a brief, or checking that a build matches its design (design-qa).
 license: MIT
 metadata:
   author: Matthias Schmutz

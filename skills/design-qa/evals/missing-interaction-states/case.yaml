@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: missing-interaction-states
+expected_outcome: |
+  The QA finds that the focus outline is removed, which fails WCAG 2.4.7 and is a Blocker, that no
+  hover state is built, and that no disabled state exists, each with the CSS to add using the tokens.
+context:
+  scaffold_script: place-files.sh

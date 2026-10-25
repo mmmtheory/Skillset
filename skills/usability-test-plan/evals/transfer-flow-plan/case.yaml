@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: transfer-flow-plan
+expected_outcome: |
+  A plan that starts from the ship decision, writes research questions about first-time international
+  transfers, recruits people by recent behaviour, writes scenario tasks that avoid the interface
+  labels, and gives success criteria per task.
+context:
+  scaffold_script: place-files.sh

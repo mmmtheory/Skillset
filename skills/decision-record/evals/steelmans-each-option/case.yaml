@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: steelmans-each-option
+expected_outcome: |
+  Each option, including the ones not chosen, has a fair case for and against, written as its
+  supporters would argue it, and the trade-off of keeping a custom set (maintenance) is named.

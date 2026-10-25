@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: includes-assistive-tech-users
+expected_outcome: |
+  The plan recruits screen reader users explicitly, lets them use their own devices and settings,
+  allows longer sessions, and makes consent and instructions accessible.

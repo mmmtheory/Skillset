@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: upload-copy-and-way-out
+expected_outcome: |
+  Each state, including too large, wrong type, too many files and a failed upload, has the copy people
+  will see and a way out, states the limits, and keeps the rest of the form and the photos already
+  uploaded.

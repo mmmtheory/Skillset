@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: records-dissent-and-trade-offs
+expected_outcome: |
+  The record names what was given up (Settings no longer top level, Android drawer convention) and who
+  pays for it, and records the dissent fairly with the person's strongest argument.
+context:
+  scaffold_script: place-files.sh
