@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: scope-at-setup
+expected_outcome: |
+  Plain-language scope of what the agent can read and do in each service, what it cannot do without asking, ways to narrow scope, and how to disconnect.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: conflicting-sources-flagged
+expected_outcome: |
+  The agent does not silently pick one value. It reports that tokens.json and tokens.css disagree on the brand colour, states which it used and why, and asks the team to confirm.
+context:
+  scaffold_script: place-files.sh

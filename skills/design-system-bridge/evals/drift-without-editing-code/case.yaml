@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: drift-without-editing-code
+expected_outcome: |
+  The agent reports the mismatch, explains that the source the team ships from is usually the truth for values, asks which they ship from or recommends checking the design file, and does not edit either file.
+context:
+  scaffold_script: place-files.sh

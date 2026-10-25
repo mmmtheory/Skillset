@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: figma-mcp-route
+expected_outcome: |
+  The agent explains it would read variables with get_variable_defs and look at components with get_screenshot, and asks for the file link or frame, rather than inventing tokens.

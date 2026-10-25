@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: buttons-from-flow
+expected_outcome: |
+  The invite button names the action (and count where possible); the remove dialog title asks the specific question, the body says what is lost, and the button repeats the verb.
+context:
+  scaffold_script: place-files.sh

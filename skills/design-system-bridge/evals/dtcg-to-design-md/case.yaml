@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: dtcg-to-design-md
+expected_outcome: |
+  A DESIGN.md with front matter holding primary #006d77, ink #1d1d1b and rounded md 6px, plus the prescribed section headings, with sections marked as still to write rather than filled with invented rules.
+context:
+  scaffold_script: place-files.sh

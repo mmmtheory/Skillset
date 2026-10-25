@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: convert-to-dtcg-correct-shape
+expected_outcome: |
+  tokens.json in DTCG 2025.10 shape: colours as objects with colorSpace srgb, components and hex; dimensions as value and unit objects; a typography composite with line height as a number.
+context:
+  scaffold_script: place-files.sh

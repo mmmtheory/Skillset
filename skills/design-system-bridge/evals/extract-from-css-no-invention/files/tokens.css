@@ -1,0 +1,14 @@
+:root {
+  --color-brand: #0b5cad;
+  --color-brand-strong: #084887;
+  --color-ink: #1b1d1f;
+  --color-paper: #ffffff;
+  --color-line: #d9dde1;
+  --radius-sm: 4px;
+  --radius-lg: 12px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-4: 16px;
+  --font-body: "Source Sans 3", Arial, sans-serif;
+  --text-body: 16px;
+}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: extract-from-css-no-invention
+expected_outcome: |
+  A DESIGN.md whose front matter uses exactly the token names and values from tokens.css, with no invented tokens, and the prescribed body sections. Undefined categories such as elevation are stated as undefined.
+context:
+  scaffold_script: place-files.sh

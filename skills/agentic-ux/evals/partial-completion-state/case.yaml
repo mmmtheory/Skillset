@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: partial-completion-state
+expected_outcome: |
+  A partial completion state saying how many moved, how many failed and why, what state things are in, with a retry per failure and nothing hidden.

@@ -27,7 +27,7 @@ RESULTS = ROOT / "bench" / "results.json"
 SKILLS = ROOT / "skills"
 
 THRESHOLDS = {"pass_rate": 85, "lift": 25, "heldout_gap": 10, "trigger": 90}
-VISUAL = {"design-critique", "brand-strategy", "brand-architecture"}  # judged partly by blind review
+VISUAL = {"design-critique", "human-copy", "brand-strategy", "brand-architecture"}  # judged partly by blind review
 
 
 def load() -> dict:
@@ -138,7 +138,7 @@ def cmd_report(_args) -> int:
         fmt = lambda v: "" if v is None else f"{v:g}%"
         note = "Ships" if status == "ships" else "Below bar: " + "; ".join(misses)
         print(f"| {name} | {r['skill_version']} | {fmt(r['with'])} | {fmt(r['without'])} | {r['with'] - r['without']:+g} | {fmt(r.get('heldout'))} | {fmt(r.get('trigger'))} | {r.get('blind') or ''} | {note} |")
-    print(f"\nThresholds: pass rate of {THRESHOLDS['pass_rate']}% or more, lift of +{THRESHOLDS['lift']} or more, held-out within {THRESHOLDS['heldout_gap']} points, trigger accuracy of {THRESHOLDS['trigger']}% or more, blind review 2 of 3 for visual and brand skills.")
+    print(f"\nThresholds: pass rate of {THRESHOLDS['pass_rate']}% or more, lift of +{THRESHOLDS['lift']} or more, held-out within {THRESHOLDS['heldout_gap']} points, trigger accuracy of {THRESHOLDS['trigger']}% or more, blind review 2 of 3 for the critique, copy and brand skills.")
     return 0
 
 

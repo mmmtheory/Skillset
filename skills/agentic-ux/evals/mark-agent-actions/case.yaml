@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: mark-agent-actions
+expected_outcome: |
+  Agent edits are labelled as the agent's (with who asked) in the document, history and notifications, with the ability to review and revert agent changes.

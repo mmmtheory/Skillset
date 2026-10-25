@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: proposals-kept-separate
+expected_outcome: |
+  The real tokens appear in the front matter. The suggested spacing scale is clearly marked as a proposal, kept separate from the real system, for example in Do's and Don'ts.
+context:
+  scaffold_script: place-files.sh

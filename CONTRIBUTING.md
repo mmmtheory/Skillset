@@ -40,7 +40,7 @@ Four cases per skill are written by designers outside the authoring loop and kep
 | Lift over the no-skill baseline | +25 points or more |
 | Held-out pass rate | Within 10 points of the main set |
 | Trigger accuracy on 20 test queries | 90% or higher, no false triggers on adjacent tasks |
-| Blind review preference (visual and brand skills) | Preferred in at least 2 of 3 comparisons |
+| Blind review preference (critique, copy and brand skills) | Preferred in at least 2 of 3 comparisons |
 | SKILL.md size | Under 500 lines |
 
 Every run uses an independent grader. The agent that produced the output never grades it.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: memory-controls
+expected_outcome: |
+  A view of what is remembered, editing and deleting entries, a way to turn memory off, and an indication when a memory is used or added.

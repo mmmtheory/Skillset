@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: anthropomorphic-copy-rewrite
+expected_outcome: |
+  Rewritten lines that drop fake feelings and exclamation marks, say what the agent can do and did, give errors with what happened and what next, and name the action on the approval button.
+context:
+  scaffold_script: place-files.sh

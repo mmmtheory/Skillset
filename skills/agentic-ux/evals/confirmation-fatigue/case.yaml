@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: confirmation-fatigue
+expected_outcome: |
+  The agent recommends removing approvals for low-impact reversible actions such as private reminders, keeping preview or approval for events involving others, adding undo and an activity log, and possibly letting users adjust levels.

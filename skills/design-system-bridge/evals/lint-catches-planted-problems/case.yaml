@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: lint-catches-planted-problems
+expected_outcome: |
+  The agent reports the planted problems: helper-text fails contrast, chip references a colour that does not exist, and several prescribed sections are missing. It does not report button-primary as a contrast failure.
+context:
+  scaffold_script: place-files.sh

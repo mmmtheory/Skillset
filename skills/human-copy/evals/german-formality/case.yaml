@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: german-formality
+expected_outcome: |
+  German error messages with consistent formality (Sie for banking unless told otherwise), following German punctuation conventions, each saying what happened and what to do.

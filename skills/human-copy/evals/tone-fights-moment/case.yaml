@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: tone-fights-moment
+expected_outcome: |
+  The agent points out briefly that humour fits badly when someone has lost work, then writes a calm, specific message that says what was lost, whether anything can be recovered and what to do, keeping at most a light touch of brand warmth.

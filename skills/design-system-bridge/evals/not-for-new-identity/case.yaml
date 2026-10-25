@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: not-for-new-identity
+expected_outcome: |
+  The agent says there is no existing system to extract, explains that inventing an identity is a different job, and either offers a clearly labelled proposed starting system or suggests doing brand strategy first. Anything it proposes is marked as a proposal.

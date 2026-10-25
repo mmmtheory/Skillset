@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: notification-lock-screen
+expected_outcome: |
+  Each notification leads with the news, makes sense with no context on a lock screen, includes the relevant name or task, and avoids hype.

@@ -31,6 +31,8 @@ Pull from the conversation and files: what it is, who uses it, the job it must d
 - **Refinement**: everything, weighted toward hierarchy, flow and states.
 - **Pre-ship**: everything, with accessibility and states weighted highest.
 
+If the project has a `DESIGN.md` (written by the design-system-bridge skill or by hand), read it first and score System consistency against its tokens and component rules.
+
 If the goal or stage is not stated, assume from context, say your assumption in one line at the top, and carry on. Do not stop to ask unless the design could serve two very different goals and the critique would flip between them.
 
 ### 2. Look at it

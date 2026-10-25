@@ -172,12 +172,17 @@ def check_style() -> None:
         if path.resolve() == Path(__file__).resolve():
             continue
         text = path.read_text(encoding="utf-8")
-        for char, label in BANNED_CHARS.items():
+        # Eval input files may plant the very patterns a skill is meant to fix.
+        planted = "evals" in path.parts and "files" in path.parts
+        for char, label in ({} if planted else BANNED_CHARS).items():
             if char in text:
                 line = text[: text.index(char)].count("\n") + 1
                 fail(path, f"line {line}: {label}; rewrite the sentence")
         if path.suffix == ".md" and "evals" not in path.parts:
-            lower = text.lower()
+            # Phrases quoted as code (`like this`) are examples, not copy.
+            prose = re.sub(r"```.*?```", "", text, flags=re.S)
+            prose = re.sub(r"`[^`\n]*`", "", prose)
+            lower = prose.lower()
             for phrase in BANNED_PHRASES:
                 if phrase in lower:
                     fail(path, f"stock phrase '{phrase}'")

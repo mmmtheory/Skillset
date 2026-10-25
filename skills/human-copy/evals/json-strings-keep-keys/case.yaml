@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: json-strings-keep-keys
+expected_outcome: |
+  en.json returned with the same keys and structure, with improved values: a specific error with next step, a factual success message, an action-named button and a helpful empty state.
+context:
+  scaffold_script: place-files.sh

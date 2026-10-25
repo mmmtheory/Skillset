@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: consent-location
+expected_outcome: |
+  Says what is accessed and why, what happens if they decline, and gives a decline option as clear as the accept.

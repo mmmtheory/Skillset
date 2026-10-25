@@ -1,0 +1,5 @@
+- Welcome: "Hi! I'm Max, your super-smart assistant! I'd love to help you crush your to-do list! 🚀"
+- Working: "Hmm, let me think about this..."
+- Done: "Woohoo! All done! You're going to love this!"
+- Error: "Oops! Something went wrong. Please try again."
+- Approval button: "Proceed"

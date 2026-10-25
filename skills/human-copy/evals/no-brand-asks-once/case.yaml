@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: no-brand-asks-once
+expected_outcome: |
+  With no voice given, the agent either asks one question with a proposed default or proceeds with a plain, calm default and says so, then writes an empty state explaining why it's empty and how to save a first recipe.

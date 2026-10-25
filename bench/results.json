@@ -2,6 +2,9 @@
   "updated": null,
   "note": "Pass rates are percentages of grader assertions passed, averaged over every case and run. Lift is with minus without.",
   "skills": {
+    "agentic-ux": {
+      "runs": []
+    },
     "brand-architecture": {
       "runs": []
     },
@@ -12,6 +15,12 @@
       "runs": []
     },
     "design-critique": {
+      "runs": []
+    },
+    "design-system-bridge": {
+      "runs": []
+    },
+    "human-copy": {
       "runs": []
     },
     "research-synthesis": {

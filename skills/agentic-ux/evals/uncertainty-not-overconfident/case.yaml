@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: uncertainty-not-overconfident
+expected_outcome: |
+  Unsure matches are not paid automatically; the UI states the uncertainty with its specific reason, shows the differing details side by side, and asks for a decision with clear options.

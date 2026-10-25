@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: handoff-to-human
+expected_outcome: |
+  Triggers for handoff (can't help, customer asks, high stakes), context passed to the human, and clear expectations for the customer about what happens next and when.

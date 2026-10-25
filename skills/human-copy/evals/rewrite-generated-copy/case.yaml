@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: rewrite-generated-copy
+expected_outcome: |
+  Rewritten strings with no dashes, stock phrases, exclamation marks, emoji or "not just X, it's Y" framing; the button names an action; the empty state gives a first step. Before and after shown with reasons.
+context:
+  scaffold_script: place-files.sh

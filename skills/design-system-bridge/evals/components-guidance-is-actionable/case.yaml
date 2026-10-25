@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: components-guidance-is-actionable
+expected_outcome: |
+  The sections are filled with specific instructions tied to the real tokens and components, such as when to use button-danger, and anything not read from a source is marked as inferred.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,5 @@
+- Hero: Unlock the power of seamless invoicing — effortlessly!
+- Subhead: It's not just an app, it's a whole new way to get paid.
+- Feature: Leverage cutting-edge automation to supercharge your workflow.
+- CTA button: Submit
+- Empty state: Nothing here yet! 🚀

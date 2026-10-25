@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: long-task-progress-and-stop
+expected_outcome: |
+  Real progress (steps, sources read), a visible stop control that keeps work done so far, the ability to leave and be notified, and a plan or scope shown at the start.

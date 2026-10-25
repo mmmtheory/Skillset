@@ -1,0 +1,8 @@
+{
+  "upload": {
+    "error": "An error occurred.",
+    "success": "Woohoo! Upload complete!",
+    "button": "Submit"
+  },
+  "empty": "Nothing here yet!"
+}
