@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: notes-not-transcripts
+expected_outcome: |
+  The synthesis says the source is researcher notes rather than transcripts and that this weakens the evidence. Paraphrased note text is not presented as verbatim participant quotes. Findings include difficulty finding export and screenshot workarounds, with counts out of 5.
+context:
+  scaffold_script: place-files.sh

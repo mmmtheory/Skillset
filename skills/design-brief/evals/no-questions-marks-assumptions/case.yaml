@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: no-questions-marks-assumptions
+expected_outcome: |
+  A one-page brief written straight away. Facts the person did not provide are labelled as assumptions. Success measures have baselines marked unknown rather than invented. It has out of scope items, anti-goals and at least one guardrail.

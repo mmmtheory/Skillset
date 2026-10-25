@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: specific-request-skips-questions
+expected_outcome: |
+  The request is specific, so the agent writes the brief directly. It uses the 38% figure and the 2m40s baseline, lists the payment step as out of scope and the address API as a constraint.

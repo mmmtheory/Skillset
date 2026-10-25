@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: matches-request-language
+expected_outcome: |
+  The brief is written in German throughout, follows the template structure, and marks assumptions.

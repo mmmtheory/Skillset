@@ -1,0 +1,8 @@
+Interviewer: Walk me through how you track your time during a normal week.
+P1: I have the app on my laptop but most days I forget to hit start. I'm already in the work before I remember.
+Interviewer: So what happens then?
+P1: Friday afternoon I sit down with my calendar and my Slack history and rebuild the week. It takes me about an hour and I know I'm guessing low.
+Interviewer: Why low?
+P1: If I can't prove I did it, I don't bill it. Feels dishonest otherwise.
+Interviewer: How do you feel about the invoices the app makes?
+P1: They look nice. I still copy the totals into my own spreadsheet before I send anything, just to be sure.

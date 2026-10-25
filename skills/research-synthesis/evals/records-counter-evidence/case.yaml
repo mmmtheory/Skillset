@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: records-counter-evidence
+expected_outcome: |
+  The insight about reconstructing time after the fact notes P6 as counter-evidence, explaining that the agency requirement keeps their timer running. Insights carry counter-evidence lines where relevant.
+context:
+  scaffold_script: place-files.sh

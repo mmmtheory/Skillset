@@ -1,0 +1,4 @@
+Interviewer: Hi Raj, what's your role?
+Raj Patel: I run front desk at Northside Dental.
+Interviewer: How do reminders work for you?
+Raj Patel: We rely on the system's emails but patients say they never get them. I end up calling the morning list myself.

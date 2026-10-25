@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: survey-open-text
+expected_outcome: |
+  Themes across the fifteen answers with counts out of 15, such as calendar sync failures for paying users, unclear plan differences among free users, and team leads lacking a view of missing timesheets. Segment concentration by plan is noted. Quotes are verbatim with respondent IDs.
+context:
+  scaffold_script: place-files.sh

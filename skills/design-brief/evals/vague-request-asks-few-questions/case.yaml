@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: vague-request-asks-few-questions
+expected_outcome: |
+  The agent does not write the full brief yet. It asks a short set of questions that would change the direction, each with a proposed default the person can accept, then waits.

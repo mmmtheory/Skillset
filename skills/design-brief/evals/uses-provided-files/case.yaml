@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: uses-provided-files
+expected_outcome: |
+  The brief uses the facts in the notes with their sources, uses 41% abandonment as the baseline, treats the carrier integration and refund timing as constraints or out of scope, and does not ask for information already in the file.
+context:
+  scaffold_script: place-files.sh

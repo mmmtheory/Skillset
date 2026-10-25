@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: conflicting-constraints-pushback
+expected_outcome: |
+  Before the brief, the agent says plainly that the constraints cannot all hold together. It still delivers a brief, with the conflict carried into open questions or scope.

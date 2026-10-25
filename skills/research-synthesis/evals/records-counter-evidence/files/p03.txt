@@ -1,0 +1,8 @@
+Interviewer: How do you keep track of hours?
+P3: I try to start the timer when I open a client file. Maybe half the time I actually do.
+Interviewer: Would a reminder help, like a notification when you open a file?
+P3: Yeah, I guess a reminder would be nice.
+Interviewer: What do you do the other half of the time?
+P3: I look at my sent emails and the git commits and work backwards. It's tedious but it's the only record I have.
+Interviewer: Anything else that bugs you?
+P3: Not really. The invoices are fine, I just send what it gives me.

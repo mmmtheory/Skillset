@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: no-invented-numbers
+expected_outcome: |
+  Success measures name the retention metric with its baseline marked unknown or to be measured. No invented percentages, user counts or research findings appear as facts.

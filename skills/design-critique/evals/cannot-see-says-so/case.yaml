@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: cannot-see-says-so
+expected_outcome: |
+  With only a description, the agent says it has not seen the design, critiques what it can from the description, and marks visual findings as unconfirmed. It does not invent details such as colours, sizes or contrast values that were not described.

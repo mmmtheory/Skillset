@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: solution-is-not-the-problem
+expected_outcome: |
+  The problem statement describes what claimants struggle with and does not name the chatbot. The chatbot is treated as one candidate solution that has to earn its place, not as the given.

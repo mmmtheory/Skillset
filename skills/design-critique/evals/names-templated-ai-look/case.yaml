@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: names-templated-ai-look
+expected_outcome: |
+  The critique says the page reads as generic or templated, pointing to the gradient headline, two equal hero buttons, three equal emoji cards with glass and glow, and copy that could belong to any product. It ties fixes back to the audience of small accounting firms.
+context:
+  scaffold_script: place-files.sh

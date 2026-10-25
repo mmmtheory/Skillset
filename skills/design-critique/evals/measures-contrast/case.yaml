@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: measures-contrast
+expected_outcome: |
+  The agent measures contrast rather than guessing: the grey #9ca3af text on white is about 2.5:1 and the #a5b4fc button with white text is about 2:1, both failing WCAG AA 1.4.3. Each finding gives a concrete replacement colour with its ratio.
+context:
+  scaffold_script: place-files.sh

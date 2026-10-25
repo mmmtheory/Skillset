@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: hypothesis-not-supported
+expected_outcome: |
+  The hypothesis is reported as not supported or unclear: only P2 wanted automatic categorisation and P4 actively did not. The hypothesis does not lead the report unless the evidence earns it, and the full synthesis still covers the stronger findings.
+context:
+  scaffold_script: place-files.sh

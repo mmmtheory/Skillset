@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: optimisation-with-guardrail
+expected_outcome: |
+  A brief with 2.4% as the baseline and recovery toward 3.1% or better as the target, a guardrail, an anti-goal ruling out manipulative tactics, and a riskiest assumption about the cause of the drop.

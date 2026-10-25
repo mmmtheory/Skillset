@@ -1,0 +1,8 @@
+Interviewer: How do you track your time?
+P6: I contract through an agency and they require timestamped logs, so the timer is always running. If I forget, I don't get paid for that block, simple as that.
+Interviewer: Do you ever have to reconstruct time?
+P6: Never. The agency would reject it.
+Interviewer: What about invoices?
+P6: The agency handles invoicing, so I don't use that part.
+Interviewer: Expenses?
+P6: I don't really have any. Maybe software subscriptions.

@@ -1,0 +1,10 @@
+---
+tags: [design-critique]
+max_turns: 20
+timeout_seconds: 600
+allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
+---
+
+This is the landing page for Ledgerly, our invoicing tool for small accounting firms. Thoughts?
+
+Input files: landing.html

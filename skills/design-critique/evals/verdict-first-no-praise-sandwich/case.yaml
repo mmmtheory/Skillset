@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: verdict-first-no-praise-sandwich
+expected_outcome: |
+  The critique opens with a verdict, not with compliments. Because the page is due to ship, accessibility and states are weighted highly. The verdict is not Ready, given the contrast and labelling failures.
+context:
+  scaffold_script: place-files.sh

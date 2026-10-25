@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: missing-states-and-reflow
+expected_outcome: |
+  The critique notices the design shows only the happy path and lists missing states (empty, loading, error, long merchant names, no results for a filter). It flags the fixed 1100 px table as failing reflow at narrow widths, and that income and expense rely on red and green alone.
+context:
+  scaffold_script: place-files.sh

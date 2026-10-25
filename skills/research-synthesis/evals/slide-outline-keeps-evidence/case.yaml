@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: slide-outline-keeps-evidence
+expected_outcome: |
+  A five slide outline whose slides carry the findings with their evidence labels: participant counts, at least one verbatim quote per main finding, and a slide on limits or next questions.
+context:
+  scaffold_script: place-files.sh

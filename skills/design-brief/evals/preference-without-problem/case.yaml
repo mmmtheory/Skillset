@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: preference-without-problem
+expected_outcome: |
+  The agent notes in a sentence or two that a colour preference is not a user problem, then still delivers a brief built around a real goal for the homepage, with the colour request handled as a constraint, open question or input rather than the problem.

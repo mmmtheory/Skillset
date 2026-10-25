@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pennywise: create your account</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Inter, sans-serif; background: #ffffff; color: #111827; }
+  main { max-width: 420px; margin: 64px auto; padding: 0 16px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  .sub { color: #9ca3af; font-size: 14px; margin: 0 0 24px; }
+  input { width: 100%; padding: 10px 12px; margin-bottom: 12px; font-size: 14px;
+          border: 1px solid #e5e7eb; border-radius: 6px; outline: none; }
+  input:focus { outline: none; border-color: #e5e7eb; }
+  input.invalid { border-color: #ef4444; }
+  .hint { color: #9ca3af; font-size: 12px; margin: -6px 0 12px; }
+  .terms { display: flex; gap: 8px; align-items: center; font-size: 12px; color: #9ca3af; }
+  .terms input { width: 14px; height: 14px; margin: 0; }
+  button { width: 100%; margin-top: 20px; padding: 12px; font-size: 15px; color: #fff;
+           background: #a5b4fc; border: 0; border-radius: 6px; }
+  .alt { text-align: center; font-size: 12px; color: #9ca3af; margin-top: 16px; }
+  .alt a { color: #a5b4fc; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Create your account</h1>
+  <p class="sub">Start budgeting in minutes.</p>
+  <form>
+    <input type="text" placeholder="Full name">
+    <input type="email" placeholder="Email" class="invalid" value="sam@">
+    <input type="password" placeholder="Password">
+    <p class="hint">8+ characters, 1 number, 1 symbol</p>
+    <input type="password" placeholder="Confirm password">
+    <label class="terms"><input type="checkbox"> I agree to the Terms and Privacy Policy</label>
+    <button type="submit">Submit</button>
+  </form>
+  <p class="alt">Already have an account? <a href="#">Log in</a></p>
+</main>
+</body>
+</html>

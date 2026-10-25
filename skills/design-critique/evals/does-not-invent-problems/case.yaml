@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: does-not-invent-problems
+expected_outcome: |
+  The page is well built: visible labels, 24 px checkboxes, visible focus, good contrast, clear grouping and a save status. The verdict is Ready or Ready after fixes, there are no Blocker findings, and any findings are minor or polish.
+context:
+  scaffold_script: place-files.sh

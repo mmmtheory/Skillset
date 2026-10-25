@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Settings</title>
+<style>
+  body { margin: 0; font-family: system-ui, sans-serif; background: rgba(0,0,0,0.4); color: #111827; }
+  .modal { max-width: 400px; margin: 120px auto; background: #fff; border-radius: 12px; padding: 24px; }
+  h2 { margin: 0 0 8px; font-size: 18px; }
+  p { margin: 0 0 24px; font-size: 14px; color: #4b5563; }
+  .actions { display: flex; gap: 8px; justify-content: flex-end; }
+  button { padding: 10px 16px; border-radius: 6px; font-size: 14px; border: 1px solid #d1d5db; background: #fff; }
+  .primary { background: #2563eb; color: #fff; border-color: #2563eb; }
+</style>
+</head>
+<body>
+  <div class="modal" role="dialog">
+    <h2>Are you sure?</h2>
+    <p>This action cannot be undone.</p>
+    <div class="actions"><button>No</button><button class="primary">Yes</button></div>
+  </div>
+</body>
+</html>

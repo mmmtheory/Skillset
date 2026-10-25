@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: catches-labels-focus-and-targets
+expected_outcome: |
+  Beyond contrast, the critique catches placeholder-only labels, the removed focus outline, the 14 px terms checkbox below the 24 px target minimum, and an email error shown only by a red border with no message.
+context:
+  scaffold_script: place-files.sh

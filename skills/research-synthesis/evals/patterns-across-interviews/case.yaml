@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: patterns-across-interviews
+expected_outcome: |
+  A synthesis organised by insight across participants rather than one summary per interview. Three to six insights, each with a participant count out of 6 and a strength rating, no percentages, and a section on what six interviews cannot tell the team.
+context:
+  scaffold_script: place-files.sh

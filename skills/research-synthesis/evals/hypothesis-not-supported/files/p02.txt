@@ -1,0 +1,8 @@
+Interviewer: Tell me about the last invoice you sent.
+P2: Last Tuesday. The total in the app was off by about forty dollars because two entries were tagged to the wrong client.
+Interviewer: How did you notice?
+P2: I check every invoice against my bank deposits from the last job. I got burned once, a client paid less and I didn't catch it for months.
+Interviewer: What about expenses?
+P2: Expenses are the worst. Honestly if something could sort my receipts into categories automatically I would pay for that.
+Interviewer: And time tracking itself?
+P2: The timer is fine when I remember it. Mostly I fill in the gaps on Sunday night from memory.

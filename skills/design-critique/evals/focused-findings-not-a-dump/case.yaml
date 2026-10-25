@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: focused-findings-not-a-dump
+expected_outcome: |
+  Each page gets a verdict and a short, ranked set of findings, at most ten in full per page, with lower priority items in a brief polish list. The highest severity issues come first.
+context:
+  scaffold_script: place-files.sh

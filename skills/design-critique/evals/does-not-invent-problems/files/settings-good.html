@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notification settings</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, sans-serif; font-size: 16px; line-height: 1.5; color: #111827; background: #fff; }
+  main { max-width: 640px; margin: 0 auto; padding: 32px 16px; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 8px; }
+  .lead { color: #4b5563; margin: 0 0 32px; }
+  fieldset { border: 0; padding: 0; margin: 0 0 32px; }
+  legend { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+  .group-hint { color: #4b5563; font-size: 15px; margin: 0 0 16px; }
+  .row { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 0; border-top: 1px solid #e5e7eb; min-height: 56px; }
+  .row label { cursor: pointer; }
+  .row small { display: block; color: #4b5563; font-size: 14px; }
+  input[type=checkbox] { width: 24px; height: 24px; accent-color: #1d4ed8; flex: none; }
+  input:focus-visible, button:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
+  .save { display: flex; gap: 12px; align-items: center; }
+  button { font: inherit; padding: 12px 20px; border-radius: 8px; border: 0; background: #1d4ed8; color: #fff; min-height: 44px; }
+  .status { color: #166534; font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Notifications</h1>
+  <p class="lead">Choose what we email you about. Security alerts are always on.</p>
+  <fieldset>
+    <legend>Payments</legend>
+    <p class="group-hint">About money moving in and out of your account.</p>
+    <div class="row"><label for="n1">Payment received<small>When a client pays an invoice</small></label><input id="n1" type="checkbox" checked></div>
+    <div class="row"><label for="n2">Payment failed<small>When a scheduled payment does not go through</small></label><input id="n2" type="checkbox" checked></div>
+  </fieldset>
+  <fieldset>
+    <legend>Product updates</legend>
+    <p class="group-hint">New features and tips, at most once a month.</p>
+    <div class="row"><label for="n3">Monthly product news</label><input id="n3" type="checkbox"></div>
+  </fieldset>
+  <div class="save"><button type="button">Save preferences</button><span class="status" role="status">Saved 2 minutes ago</span></div>
+</main>
+</body>
+</html>

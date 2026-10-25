@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: translates-alongside-original
+expected_outcome: |
+  The synthesis is in English. Quotes stay in the original German with an English translation beside them. Findings include unreliable syncing of shared lists and workarounds outside the app, with counts out of 3.
+context:
+  scaffold_script: place-files.sh

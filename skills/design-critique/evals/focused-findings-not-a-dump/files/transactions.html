@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transactions</title>
+<style>
+  body { margin: 0; font-family: system-ui, sans-serif; color: #1f2937; background: #f9fafb; }
+  main { padding: 32px; }
+  h1 { font-size: 24px; margin: 0 0 16px; }
+  .filters { display: flex; gap: 8px; margin-bottom: 16px; }
+  .filters button { padding: 6px 12px; border: 1px solid #d1d5db; background: #fff; border-radius: 6px; font-size: 14px; }
+  table { width: 1100px; border-collapse: collapse; background: #fff; }
+  th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-size: 14px; white-space: nowrap; }
+  th { color: #6b7280; font-weight: 600; }
+  td.amount { text-align: right; font-variant-numeric: tabular-nums; }
+  .neg { color: #dc2626; }
+  .pos { color: #16a34a; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Transactions</h1>
+  <div class="filters"><button>All</button><button>Income</button><button>Expenses</button><button>This month</button></div>
+  <table>
+    <thead><tr><th>Date</th><th>Merchant</th><th>Category</th><th>Account</th><th style="text-align:right">Amount</th></tr></thead>
+    <tbody>
+      <tr><td>24 Oct</td><td>Countdown Ponsonby</td><td>Groceries</td><td>Everyday</td><td class="amount neg">84.20</td></tr>
+      <tr><td>23 Oct</td><td>Acme Design Ltd</td><td>Income</td><td>Business</td><td class="amount pos">2,400.00</td></tr>
+      <tr><td>23 Oct</td><td>Z Energy</td><td>Transport</td><td>Everyday</td><td class="amount neg">96.10</td></tr>
+      <tr><td>22 Oct</td><td>Spotify</td><td>Subscriptions</td><td>Everyday</td><td class="amount neg">16.99</td></tr>
+      <tr><td>21 Oct</td><td>IRD</td><td>Tax</td><td>Business</td><td class="amount neg">1,210.00</td></tr>
+    </tbody>
+  </table>
+</main>
+</body>
+</html>

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: exploration-stage-focus
+expected_outcome: |
+  The critique works at the level of direction: the watering schedule, which serves the main job, sits below a carousel, tips, shop deals and community posts. It recommends reordering around the watering task and does not nitpick colours, fonts or spacing.
+context:
+  scaffold_script: place-files.sh

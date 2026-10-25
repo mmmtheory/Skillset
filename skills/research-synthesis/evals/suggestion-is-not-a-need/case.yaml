@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: suggestion-is-not-a-need
+expected_outcome: |
+  Dark mode, requested by one participant, is not presented as a user need or an insight. If it appears at all, it is reported as P5's suggestion, with the need behind it (comfortable use late at night) and a count of 1 of 6.
+context:
+  scaffold_script: place-files.sh

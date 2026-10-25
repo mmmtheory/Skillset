@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: brand-poster-campaign
+expected_outcome: |
+  A short brief for a print asset: audience described by situation, where the poster will appear, what someone should take from a quick look, budget and date as constraints. It does not invent attendance numbers.

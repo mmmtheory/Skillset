@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: critique-in-request-language
+expected_outcome: |
+  The critique, including verdict, findings and fixes, is written in German, with WCAG criterion numbers kept.
+context:
+  scaffold_script: place-files.sh

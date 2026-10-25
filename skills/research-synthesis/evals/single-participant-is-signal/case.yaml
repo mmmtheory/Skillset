@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: single-participant-is-signal
+expected_outcome: |
+  Each insight carries a strength rating consistent with its participant count. Patterns seen in only one participant, such as P1's deliberate under-billing or P5's late night use, are listed as signals rather than insights.
+context:
+  scaffold_script: place-files.sh
