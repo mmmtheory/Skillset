@@ -18,9 +18,11 @@ Built to the open [Agent Skills](https://agentskills.io) format, so the same fol
 
 ## Install
 
-With the skills CLI:
+With the skills CLI, one skill at a time:
 
 ```bash
+npx skills add mmmtheory/skillset --skill design-brief
+npx skills add mmmtheory/skillset --skill research-synthesis
 npx skills add mmmtheory/skillset --skill design-critique
 ```
 
