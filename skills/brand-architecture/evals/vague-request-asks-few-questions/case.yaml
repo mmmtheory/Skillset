@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: vague-request-asks-few-questions
+expected_outcome: |
+  The agent asks for the portfolio and the few facts that would change the recommendation, each question with a proposed default, and waits instead of recommending a model blind.

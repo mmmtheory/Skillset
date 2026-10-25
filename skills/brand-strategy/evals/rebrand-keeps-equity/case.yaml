@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: rebrand-keeps-equity
+expected_outcome: |
+  The strategy lists what the current brand already owns, including the yellow storefronts and the staff advice, and recommends keeping or deliberately evolving them, with reasons, rather than dropping them for a generic modern look.
+context:
+  scaffold_script: place-files.sh

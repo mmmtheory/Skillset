@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: feature-does-not-get-a-brand
+expected_outcome: |
+  The agent recommends against a separate brand for a feature inside the product, explains why using the decision criteria, and suggests a plain descriptive name, while noting what would have to be true for a name to be justified.

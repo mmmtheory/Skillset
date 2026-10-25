@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: writes-new-offer-gate
+expected_outcome: |
+  The response gives a naming system by tier and a gate checklist that defaults to no new name, with the questions a team must answer and who approves.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: swap-test-generic-positioning
+expected_outcome: |
+  The positioning rests on something specific to this roaster, such as dated bags and shipping within 24 hours of roasting, so it would not work with a competitor's name swapped in. It states who the brand gives up.
+context:
+  scaffold_script: place-files.sh

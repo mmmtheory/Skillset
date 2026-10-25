@@ -21,6 +21,9 @@ jobs:
       - name: Structure and style
         run: python tools/validate.py
 
+      - name: Skill Bench entries
+        run: python tools/bench.py check
+
       - name: Script self-tests
         run: |
           set -e

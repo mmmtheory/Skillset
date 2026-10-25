@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: purpose-left-out-if-fake
+expected_outcome: |
+  The platform either offers a purpose that changes real decisions for this practice and says what decision it changes, or explains that a purpose is not needed and leaves it out rather than writing a generic one.

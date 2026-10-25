@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: risk-keeps-brands-apart
+expected_outcome: |
+  The agent recommends a fully separate brand because of audience clash and reputational risk, and explains which decision criteria drive that.

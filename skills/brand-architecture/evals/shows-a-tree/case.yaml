@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: shows-a-tree
+expected_outcome: |
+  The response includes a tree or diagram of the target portfolio showing each offer's relationship to the parent, with the reasoning for each relationship.

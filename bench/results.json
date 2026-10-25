@@ -1,0 +1,21 @@
+{
+  "updated": null,
+  "note": "Pass rates are percentages of grader assertions passed, averaged over every case and run. Lift is with minus without.",
+  "skills": {
+    "brand-architecture": {
+      "runs": []
+    },
+    "brand-strategy": {
+      "runs": []
+    },
+    "design-brief": {
+      "runs": []
+    },
+    "design-critique": {
+      "runs": []
+    },
+    "research-synthesis": {
+      "runs": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: messy-portfolio-runs-check
+expected_outcome: |
+  The agent runs the portfolio check or equivalent analysis and reports the planted problems: Fernlight Books and Fernlight Book are confusable, StockPilot breaks the sub-brand pattern, Kiwa is endorsed with no endorsement, and SmartSync is a named feature. It recommends a target structure with naming rules.
+context:
+  scaffold_script: place-files.sh

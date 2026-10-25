@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: tests-rules-against-current-names
+expected_outcome: |
+  The naming system is tested against the current names, and each existing name that breaks a rule (SolarSmart, PowerPal) gets an explicit decision: rename, keep as an exception with a reason, or change the rule.
+context:
+  scaffold_script: place-files.sh

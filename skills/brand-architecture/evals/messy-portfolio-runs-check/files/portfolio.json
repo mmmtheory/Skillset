@@ -1,0 +1,12 @@
+{
+  "masterbrand": "Fernlight",
+  "brands": [
+    {"name": "Fernlight", "tier": "masterbrand"},
+    {"name": "Fernlight Books", "tier": "sub-brand", "parent": "Fernlight", "relationship": "sub-brand", "audience": "small retailers"},
+    {"name": "Fernlight Book", "tier": "sub-brand", "parent": "Fernlight", "relationship": "sub-brand", "audience": "sole traders"},
+    {"name": "StockPilot", "tier": "sub-brand", "parent": "Fernlight", "relationship": "sub-brand", "audience": "small retailers"},
+    {"name": "Kiwa", "tier": "brand", "parent": "Fernlight", "relationship": "endorsed", "audience": "accountants"},
+    {"name": "SmartSync", "tier": "feature", "parent": "Fernlight Books"},
+    {"name": "receipt scanning", "tier": "feature", "parent": "Fernlight Books"}
+  ]
+}

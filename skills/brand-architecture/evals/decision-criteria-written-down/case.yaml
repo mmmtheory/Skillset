@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: decision-criteria-written-down
+expected_outcome: |
+  The response walks through the decision criteria (risk, audience fit, equity transfer, distinct promise, investment), states an answer for each, and reaches a recommendation consistent with those answers.

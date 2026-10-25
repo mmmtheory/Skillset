@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: small-team-no-house-of-brands
+expected_outcome: |
+  The agent advises against a house of brands for a five-person team selling to one audience, pointing to the cost of building three brands, and recommends a branded house or sub-brand structure with a naming pattern.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: german-language
+expected_outcome: |
+  The full strategy is in German, uses the sourdough and 6am opening as proof points, and marks other claims as assumptions.

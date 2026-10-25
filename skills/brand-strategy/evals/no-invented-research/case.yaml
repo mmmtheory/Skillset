@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: no-invented-research
+expected_outcome: |
+  A complete platform where claims about customers, competitors and the market that were not in the prompt are labelled as assumptions. No invented statistics, survey results or competitor facts are presented as known.

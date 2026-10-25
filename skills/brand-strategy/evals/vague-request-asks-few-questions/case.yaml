@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: vague-request-asks-few-questions
+expected_outcome: |
+  The agent asks a short set of questions that would change the positioning, each with a proposed default, and waits instead of writing a full platform.

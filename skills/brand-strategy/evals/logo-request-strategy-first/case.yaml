@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: logo-request-strategy-first
+expected_outcome: |
+  The agent says briefly which strategic choices a logo depends on, then delivers the brand strategy that answers them, rather than describing or drawing a logo.

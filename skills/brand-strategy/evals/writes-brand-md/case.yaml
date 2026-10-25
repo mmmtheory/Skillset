@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: writes-brand-md
+expected_outcome: |
+  A BRAND.md file with front matter covering audience, frame, positioning, promise, personality with limits, voice with do and don't lines, and word lists, followed by a body explaining the choices.

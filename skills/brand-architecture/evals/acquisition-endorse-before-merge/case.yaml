@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: acquisition-endorse-before-merge
+expected_outcome: |
+  The agent flags the risk of throwing away Sprout's equity with a different audience, recommends keeping Sprout with an endorsement first and measuring before any merge, and gives a staged migration that lists what must not break.
+context:
+  scaffold_script: place-files.sh

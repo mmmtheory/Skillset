@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: voice-with-do-and-dont
+expected_outcome: |
+  Voice principles each come with a line that follows the principle and a line that breaks it, written for real situations in an invoicing product such as an overdue invoice reminder or an error.

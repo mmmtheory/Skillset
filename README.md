@@ -2,7 +2,7 @@
 
 Agent skills for designing with AI.
 
-Each skill targets a point where agents reliably fall short of a senior designer: framing the problem, making sense of research, and judging their own work. Each one ships with the eval set used to prove it helps, so you can check the claim yourself.
+Each skill targets a point where agents reliably fall short of a senior designer: framing the problem, making sense of research, judging their own work, and deciding what a brand stands for. Each one ships with the eval set used to prove it helps, so you can check the claim yourself.
 
 Built to the open [Agent Skills](https://agentskills.io) format, so the same folder works in Claude, Claude Code, Cursor, Codex and other agents that read `SKILL.md`.
 
@@ -13,6 +13,8 @@ Built to the open [Agent Skills](https://agentskills.io) format, so the same fol
 | [design-brief](skills/design-brief/SKILL.md) | A request is vague and you want a sharp brief before anyone designs | In evaluation |
 | [research-synthesis](skills/research-synthesis/SKILL.md) | You have interview notes or transcripts and need findings a team will trust | In evaluation |
 | [design-critique](skills/design-critique/SKILL.md) | You want an honest, rubric-based review of a screen, flow or page | In evaluation |
+| [brand-strategy](skills/brand-strategy/SKILL.md) | You need positioning, a brand platform or a tone of voice, written as a BRAND.md other tools can read | In evaluation |
+| [brand-architecture](skills/brand-architecture/SKILL.md) | You're deciding whether something gets its own brand, or your product names have become a mess | In evaluation |
 
 "In evaluation" means the skill is complete and its eval set is written, but lift against the no-skill baseline has not been published yet. Results will appear on each skill's page at [matthiasschmutz.com/labs](https://matthiasschmutz.com/labs).
 
@@ -36,6 +38,8 @@ Skills load on their own when a request matches their description. You can also 
 
 Every skill is run on its eval cases with and without the skill loaded, three times each, across more than one agent. A separate grader scores both runs against written assertions. A skill ships only when it clears the thresholds in [CONTRIBUTING.md](CONTRIBUTING.md), including a lift of at least 25 points over the baseline.
 
+Results are recorded in the [Skill Bench](bench/README.md). `python tools/bench.py report` prints the latest run for every skill and whether it clears the bar.
+
 Run the cases yourself with Claude Code, from inside a skill folder:
 
 ```bash
@@ -53,8 +57,11 @@ skills/
     references/      detail loaded only when needed
     scripts/         deterministic helpers (run, not read)
     evals/           one folder per test case
+bench/
+  results.json       Skill Bench results, one entry per skill
 tools/
   validate.py        structure and style checks, run in CI
+  bench.py           records runs and checks them against the ship bar
 ```
 
 ## License
